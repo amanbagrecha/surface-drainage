@@ -44,6 +44,7 @@ NOTICE: If you do not have ArcGIS 10.7 installed, you would not be able to repro
 ## 🔀 Local Installation
 Step 1: Fork the Repository
 ![](https://docs.github.com/assets/images/help/repository/fork_button.jpg)
+
 Step 2: Clone the Repository by going to your local Git Client and pushing in the command:
 ```
 git clone https://github.com/amanbagrecha/surface-drainage.git
