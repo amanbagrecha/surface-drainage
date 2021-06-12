@@ -34,7 +34,7 @@ Step 1: Fork the Repository
 ![](https://docs.github.com/assets/images/help/repository/fork_button.jpg)
 Step 2: Clone the Repository by going to your local Git Client and pushing in the command:
 ```
-git clone 
+git clone https://github.com/amanbagrecha/surface-drainage.git
 ```
 Step 3: Open `main.py` and run the python file.
 
