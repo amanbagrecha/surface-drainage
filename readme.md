@@ -7,16 +7,28 @@
 ## 🛠️ Using the code
 
 The repository contains three folders
-```
+```sh
+├───data
+│   ├───assesment_points
+│   ├───bbmpwards
+│   ├───blr_SRTM_DEM
+│   ├───KMeansClusterRaster
+│   ├───k_means_validation
+│   └───Sentinel2_10mResolution
 ├───input
 │   └───input.gdb
 ├───output
-│   └───output.gdb
+│   └───output.gdb 
 └───scripts
-│   └───__init__.py
-│   └───main.py
+    ├───.vscode
+    ├───cascade_modelling_scripts # code for cascade modelling
+    ├───cohen_kappa # code for validation
+    ├───gcm_scripts # code for gcm analysis
+    └───IDF_scripts # code for non-stationary IDF derivation
+    └───main.py # implementation of algorithm
+    └───data_download.js # data download from GEE
 ```
-All three folders are required to run the algorithm and reproduce the result. `Input` contains all the design road while `output` contains the result of the algorithm. Folder `scripts` contains a single-file arcpy code to run the analysis. 
+All three folders are required to run the algorithm and reproduce the result. `Input` contains all the design road while `output` contains the result of the algorithm. Folder `scripts` contains a code to run the analysis. 
 
 ### 🏁 Requirements
 Tested under python 2.7, ArcGIS 10.7 and Windows 10 OS.
@@ -59,7 +71,3 @@ url = {},
 author = {Shubham karole and aman bagrecha and yashas venkatesh and j nypunya and ...},
 keywords = {}
 ```
-
-
-<!-- ![Alt text](https://lucid.app/publicSegments/view/33c87adf-940f-45f8-af28-44d1361d0f4e/image.png) -->
-

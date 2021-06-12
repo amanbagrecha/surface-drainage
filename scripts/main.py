@@ -1,22 +1,12 @@
 # Created on: 13/03/2021 by Aman Bagrecha
-
+# contains implementation of algorithm
 # Import modules
 import arcpy
 import os
 import numpy as np
 import time
 
-#"""
-#file structure
 
-#main
-#├───input
-#│   ├───input.gdb
-#├───output
-#│   └───output.gdb
-#│   └───roads_csv
-#└───scripts
-#"""
 starttime= time.clock()
 # specify output location
 oc = os.path.join(os.getcwd(), "../output/output.gdb")
@@ -288,6 +278,22 @@ for road in roads:
 		list_excel.append(tc_total)
 		
 		# intensity
+		# """
+		
+		# Output of the below mentioned scripts results in 15 min rainfall data
+		# +---cascade_modelling_scripts
+		# |       Cascade_Aggregation.m
+		# |       Cascade_DisAggregation.m
+		
+		# Output of the below mentioned scripts results in rainfall correction factors
+		# +---gcm_scripts
+		# |       GCM_RFC.m
+		
+		# Output of the below mentioned scripts results in design non-stationary IDF curves 
+		# +---IDF_scripts
+		# 		Cascasde_IDF.m
+		# 		idf_curves.m
+		# """
 		new_intensity = 1302.4*tc_total**(-0.776) #power_Equation (t in mins) 1142.4
 
 		print("the intensity of rainfall is: {}".format(new_intensity))
