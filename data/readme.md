@@ -14,8 +14,9 @@
 ```
 
 
-### Polygon Layer of BBMP wards to delineate study area. Data Provider https://github.com/openbangalore/bangalore
+### Polygon Layer of BBMP wards to delineate study area. 
 ```
+Data Provider https://github.com/openbangalore/bangalore
 +---bbmpwards
 |       bbmpwards.dbf
 |       bbmpwards.fix
@@ -26,19 +27,11 @@
 |       bbmpwards.sql
 ```
 
-### NASA JPL, 2013. NASA Shuttle Radar Topography Mission Global 1 arc second. https://doi.org/10.5067/MEASURES/SRTM/SRTMGL1.003
-- Data accessed from google earth engine: 
-- Farr, T.G., Rosen, P.A., Caro, E., Crippen, R., Duren, R., Hensley, S., Kobrick, M., Paller, M., Rodriguez, E., Roth, L., Seal, D., Shaffer, S., Shimada, J., Umland, J., Werner, M., Oskin, M., Burbank, D., Alsdorf, D., 2007. The Shuttle Radar Topography Mission. Reviews of Geophysics 45. https://doi.org/10.1029/2005RG000183
-
+### NASA JPL, 2013. NASA Shuttle Radar Topography Mission Global 1 arc second. 
+- Data provider : https://doi.org/10.5067/MEASURES/SRTM/SRTMGL1.003
+- Data downloaded from : Google Earth Engine
 ```
-+---blr_SRTM_DEM
-|       Fill_SRTM_Di11.tfw
-|       Fill_SRTM_Di11.tif
-|       Fill_SRTM_Di11.tif.aux.xml
-|       Fill_SRTM_Di11.tif.ovr
-|       SRTM Digital Elevation Data 30m.tif
-|       SRTM Digital Elevation Data 30m.tif.aux.xml
-|       SRTM Digital Elevation Data 30m.tif.ovr
+Farr, T.G., Rosen, P.A., Caro, E., Crippen, R., Duren, R., Hensley, S., Kobrick, M., Paller, M., Rodriguez, E., Roth, L., Seal, D., Shaffer, S., Shimada, J., Umland, J., Werner, M., Oskin, M., Burbank, D., Alsdorf, D., 2007. The Shuttle Radar Topography Mission. Reviews of Geophysics 45. https://doi.org/10.1029/2005RG000183
 ```
 
 ### K-means clustering algorithm output with 3 classes run using SAGA K-means clustering for grids, QGIS
@@ -48,14 +41,12 @@
 |       clusters_blr_.tif.ovr
 ```
 
-### Google Earth Engine 2020, contains modified Copernicus Sentinel-2 data 2020, processed by ESA.
+### Sentinel-2 MSI: MultiSpectral Instrument, Level-1C
 - Date Acquired: 12-01-2020 using Google Earth Engine 
 - Image description: COPERNICUS/S2/20200124T051109_20200124T051244_T43PGQ
 - Dataset provider: European Space Agency (ESA) https://sentinel.esa.int/web/sentinel/user-guides/sentinel-2-msi/product-types/level-2a
 ```
-+---Sentinel2_10mResolution
-|       Sentinel_2_blr.tif
-|       Sentinel_2_blr.tif.ovr
+Google Earth Engine 2020, contains modified Copernicus Sentinel-2 data 2020, processed by ESA.
 ```
 
 ### cohen's kappa as metric to validate K-MEANS 
@@ -85,7 +76,6 @@ Thrasher, B., Maurer, E. P., McKellar, C., & Duffy, P. B., 2012: Technical Note:
 ### IMD rainfall data (http://cdsp.imdpune.gov.in/home_gridded_data.php)
 ```
 Pai, D.S., Sridhar, L., Badwaik, M.R., Rajeevan, M., 2015. Analysis of the daily rainfall events over India using a new long period (1901–2010) high resolution (0.25° × 0.25°) gridded rainfall data set. Climate Dynamics 45, 755–776. https://doi.org/10.1007/s00382-014-2307-1
-
 ```
 
 
