@@ -1,8 +1,9 @@
 # Mechanistic Approach of Road Surface Drainage
 
-**This repository contains code accompanying the paper _**
+**This repository contains code accompanying the manuscript Climate Responsive Design for Road Surface Drainage Systems**
 
-## arcpy implementation of the algorithm in our 2021 Paper.
+Implementation of the algorithm in our 2021 Paper.
+
 ![](https://lucid.app/publicSegments/view/b117258b-7175-47fb-9b38-477c2c8ed660/image.png)
 ## 🛠️ Using the code
 
@@ -57,18 +58,5 @@ Output is a `csv` file containing design values for specified `roads` in the fil
 To view the catchment area of specified road, open arcGIS and load the `X_watershed_with_mean` feature class for visual inspection.
 ![](https://i.imgur.com/Pssu53B.png)
 
-## Citation
-- To cite the data in publications:
-```
-@article{,
-title = {},
-journal = {Journal of Hydrology},
-volume = {},
-pages = {},
-year = {},
-issn = {},
-doi = {},
-url = {},
-author = {Shubham karole and aman bagrecha and yashas venkatesh and j nypunya and ...},
-keywords = {}
-```
+
+Author: Shubham Kalore, Yashas V, Aman Bagrecha, Nypunya J, Sivakumar Babu G L
